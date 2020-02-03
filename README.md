@@ -4,7 +4,7 @@ The project description goes here
 
 ## Install instructions
 
-- run git clone https://github.com/Condi16/flightapi.git in a folder in your local host to clone the repository from git servers to your machine.
+- run git clone https://github.com/Belguith-Mohamed/myapp.git in a folder in your local host to clone the repository from git servers to your machine.
 
 - run composer install to install composer dependencies
 
@@ -26,9 +26,15 @@ The project description goes here
 
 ## Response to questions
 
-in the file (myapp/app/Http/Controllers/ApiController.php)
+in the file (https://github.com/Belguith-Mohamed/myapp/blob/master/app/Http/Controllers/ApiController.php)
 - for Air Moon long time response and Air Jazz downtime issues I think loading last time stored results is a good option with setting 3 seconds timeout for Air moon (I thnik more than 3 secs will decrease API performance)
+and I have chosen a 50 API call limits (we can change it as we want)
 
-in the file (myapp/app/Http/Controllers/ApiController.php)
--Security part : Authentification   
+in the file (https://github.com/Belguith-Mohamed/myapp/blob/master/app/Http/Controllers/UserController.php)
+-Security part : Authentification and authorization are done with tokens sending (test with Postman with bearer token )
+
+
+
+
+man
 
